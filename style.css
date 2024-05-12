@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     border-radius: .5rem;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .rotate{
@@ -48,10 +48,6 @@
     60% { transform: translateX(-10px); }
     80% { transform: translateX(10px); }
     100% { transform: translateX(0); }
-}
-
-.shake {
-    animation: shake .8s;
 }
 
 img{
@@ -71,6 +67,11 @@ img{
     .container{
         width: 18rem;
         height: 18rem;
+    }
+
+    img{
+        width:25px;
+        height: 25px;
     }
 
 }
